@@ -1,3 +1,7 @@
+from animais.cad_animais import Animais
+
+cadastro = Animais()
+
 while True:
     print("Menu:")
     print("1. Cadastrar Animal")
