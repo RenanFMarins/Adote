@@ -11,6 +11,10 @@ while True:
     opcao = input("Digite o número da opção desejada: ")
     if opcao == "1":
         print("Você escolheu a opção Cadastrar Animal")
+        nome = input("Digite o nome do animal: ")
+        tipo = input("Digite o tipo do animal: ")
+
+        cadastro.cadastrar_animal(nome, tipo)
     elif opcao == "2":
         print("Você escolheu a opção 2")
     elif opcao == "3":
