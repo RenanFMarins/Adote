@@ -17,6 +17,7 @@ while True:
         cadastro.cadastrar_animal(nome, tipo)
     elif opcao == "2":
         print("Você escolheu a opção 2")
+        cadastro.listar_animais()
     elif opcao == "3":
         print("Você escolheu a opção 3")
     elif opcao == "4":
