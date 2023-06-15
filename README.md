@@ -25,8 +25,7 @@ Por fim, no final do mês a prefeitura emitirá um relatório de cruzamento de e
 ![Captura de tela 2023-06-15 165120](https://github.com/RenanFMarins/Meu-Melhor-Amigo/assets/117871994/4103c72f-565f-4b5f-8d9b-bcbdd682caf7)
 
 # Programa Rodando...
-<p align="center">
-  <img width="80%" src="Captura de tela de 2023-06-15 16-32-16.png"
-</p>
-![Captura de tela 2023-06-15 165202](https://github.com/RenanFMarins/Meu-Melhor-Amigo/assets/117871994/1eb32144-f8ca-4d3f-9104-60c6e5754afb)
+
+![WhatsApp Image 2023-06-15 at 16 32 28](https://github.com/RenanFMarins/Meu-Melhor-Amigo/assets/117871994/a915ad5d-c789-4dbc-b2a9-07b3d573c9dd)
+
 
