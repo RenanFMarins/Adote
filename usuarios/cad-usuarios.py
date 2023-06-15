@@ -19,5 +19,7 @@ class Pessoas:
     def listar_pessoas(self):
         for pessoa in self.pessoas:
             print(f"Nome: {pessoa.nome}")
-            print(f"Idade: {pessoa.idade}")
+            print(f"Contato: {pessoa.contato}")
+            print(f"Tipo Preferido: {pessoa.tipo_preferido}")
+            print(f"Preferências: {pessoa.preferencia}")
             print()
