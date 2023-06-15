@@ -24,8 +24,10 @@ while True:
         cadastro.cadastrar_animal(tipo, nome, idade_aproximada, cor, porte, particularidade)
         
     elif opcao == "2":
-        print("Listar tipos de animais")
-        cadastro.listar_tipos_animais()
+        print("--------------------------------------------------------------")
+        print("Tipos animais cadastrados")
+        print("--------------------------------------------------------------")
+        cadastro.listar_tipos_animais_ordenar()
         
     elif opcao == "3":
         print("Você escolheu cadastrar pessoa")
