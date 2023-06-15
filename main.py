@@ -14,9 +14,15 @@ while True:
     opcao = input("Digite o número da opção desejada: ")
     if opcao == "1":
         print("Você escolheu a opção Cadastrar Animal")
-        nome = input("Digite o nome do animal: ")
+        
         tipo = input("Digite o tipo do animal: ")
-        cadastro.cadastrar_animal(nome, tipo)
+        nome = input("Digite o nome do animal: ")
+        idade_aproximada = input("Digite a idade aproximada do animal: ")
+        cor = input("Digite a cor do animal: ")
+        porte = input("Digite o porte do animal: ")
+        particularidade = input("Digite a particularidade do animal: ")
+        
+        cadastro.cadastrar_animal(tipo, nome, idade_aproximada, cor, porte, particularidade)
         
     elif opcao == "2":
         print("Listar animais cadastrados")
@@ -26,10 +32,12 @@ while True:
         print("Você escolheu cadastrar pessoa")
         nome = input("Digite o nome: ")
         idade = input("Digite a idade: ")
+        
         cadastropessoa.cadastrar_pessoa(nome, idade)
         
     elif opcao == "4":
         print("Você escolheu listar pessoas cadastradas")
+        
         cadastropessoa.listar_pessoas()
 
     elif opcao == "5":
