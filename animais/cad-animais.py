@@ -39,18 +39,30 @@ class Animais:
                 print(f"Tipo de animal '{novo_tipo}' adicionado com sucesso!")
         elif 1 <= escolha <= len(tipos):
             tipo_escolhido = tipos[escolha - 1]
-            animais_tipo_escolhido = self.animais[tipo_escolhido]
-
-            animais_tipo_escolhido_ordenados = sorted(animais_tipo_escolhido, key=lambda animal: int(animal['idade_aproximada']))
 
             print(f"Animais do tipo '{tipo_escolhido}':")
-            linha()
-            for animal in animais_tipo_escolhido_ordenados:
-                print("Nome:", animal['nome'])
-                print("Idade Aproximada:", animal['idade_aproximada'])
-                print("Cor:", animal['cor'])
-                print("Porte:", animal['porte'])
-                print("Particularidade:", animal['particularidade'])
-            linha()
+            print("--------------------------------------------------------------")
+            animais_tipo_escolhido = self.animais[tipo_escolhido]
+            for i, animal in enumerate(animais_tipo_escolhido, start=1):
+                print(f"{i}. Nome:", animal['nome'])
+                print("   Idade Aproximada:", animal['idade_aproximada'])
+                print("   Cor:", animal['cor'])
+                print("   Porte:", animal['porte'])
+                print("   Particularidade:", animal['particularidade'])
+            print("--------------------------------------------------------------")
+            escolha_animal = input("Digite o número do animal desejado: ")
+            escolha_animal = int(escolha_animal)
+
+            if escolha_animal == 0:
+                return
+
+            if 1 <= escolha_animal <= len(animais_tipo_escolhido):
+                animal_escolhido = animais_tipo_escolhido[escolha_animal - 1]
+                # Remover animal da lista de adoção
+                animais_tipo_escolhido.remove(animal_escolhido)
+                print("Animal adotado com sucesso!!!")
+                print("Animal removido da lista de adoção!")
+            else:
+                print("Opção inválida. Por favor, escolha uma opção válida.")
         else:
             print("Opção inválida. Por favor, escolha uma opção válida.")
