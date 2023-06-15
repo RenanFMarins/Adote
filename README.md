@@ -20,4 +20,6 @@ Por fim, no final do mês a prefeitura emitirá um relatório de cruzamento de e
   Os alunos anotaram atentamente a todas as observações, criaram o fluxograma do estudo de caso, e posteriormente o primeiro protótipo em Python, ainda que em modo texto, e sem requisitos gráficos. A ideia foi apenas validar a proposta do programa junto ao solicitante. <br> 
 # Fluxograma
 # Código
+!C:\Users\kaua1\Downloads\WhatsApp Image 2023-06-15 at 16.24.21 (1).jpeg 
+
 # Programa rodando...
