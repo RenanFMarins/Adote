@@ -1,7 +1,9 @@
 class Pessoa:
-    def __init__(self, nome, idade):
+    def __init__(self, nome, contato, tipo_preferido, preferencia):
         self.nome = nome
-        self.idade = idade
+        self.contato = contato
+        self.tipo_preferido = tipo_preferido
+        self.preferencia = preferencia
 
 class Pessoas:
     def __init__(self):
