@@ -1,6 +1,8 @@
 from animais.cad_animais import Animais
+from usuarios.cad_usuarios import Pessoas
 
 cadastro = Animais()
+cadastropessoa = Pessoas()
 
 while True:
     print("Menu:")
