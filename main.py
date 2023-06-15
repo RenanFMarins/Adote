@@ -8,9 +8,8 @@ while True:
     print("Menu:")
     print("1. Cadastrar Animal")
     print("2. Listar tipos de Animais")
-    print("3. Cadastrar Pessoa")
-    print("4. listar pessoas cadastradas")
-    print("5. Sair")
+    print("3. Cadastrar Pessoa para Adoção")
+    print("4. Sair")
     opcao = input("Digite o número da opção desejada: ")
     if opcao == "1":
         print("Você escolheu a opção Cadastrar Animal")
