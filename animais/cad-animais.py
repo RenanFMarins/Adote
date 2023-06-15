@@ -21,15 +21,14 @@ class Animais:
         print("Animal cadastrado com sucesso!")
         
     def listar_tipos_animais(self):
-        print("Tipos de animais cadastrados:")
         tipos = list(self.animais.keys())
         for i, tipo in enumerate(tipos):
             print(f"{i + 1}. {tipo}")
         print("0. Adicionar um novo tipo de animal")
-        print()
+
         escolha = input("Digite o número do tipo desejado ou 0 para adicionar um novo tipo: ")
         escolha = int(escolha)
-
+        
         if escolha == 0:
             novo_tipo = input("Digite o nome do novo tipo de animal: ")
 
