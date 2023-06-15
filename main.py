@@ -5,7 +5,7 @@ cadastro = Animais()
 cadastropessoa = Pessoas()
 
 while True:
-    print("Menu:")
+    print("Meu Melhor Amigo:")
     print("1. Cadastrar Animal")
     print("2. Listar tipos de Animais")
     print("3. Cadastrar Pessoa para Adoção")
