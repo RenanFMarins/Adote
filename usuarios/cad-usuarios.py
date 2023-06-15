@@ -10,7 +10,9 @@ class Pessoas:
     def cadastrar_pessoa(self, nome, idade):
         pessoa = Pessoa(nome, idade)
         self.pessoas.append(pessoa)
+        print("--------------------------------------------------------------")
         print("Pessoa cadastrada com sucesso!")
+        print("--------------------------------------------------------------")
 
     def listar_pessoas(self):
         for pessoa in self.pessoas:
