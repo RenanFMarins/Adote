@@ -7,6 +7,7 @@ class Pessoas:
     def __init__(self):
         self.pessoas = []
 
-    def cadastrar_pessoa(self, pessoa):
+    def cadastrar_pessoa(self, nome, idade):
+        pessoa = Pessoa(nome, idade)
         self.pessoas.append(pessoa)
         print("Pessoa cadastrada com sucesso!")
