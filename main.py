@@ -22,6 +22,10 @@ while True:
         cadastro.listar_animais()
     elif opcao == "3":
         print("Você escolheu a opção 3")
+         nome = input("Digite o nome: ")
+        idade = input("Digite a idade: ")
+
+        cadastropessoa.cadastrar_pessoa(nome, idade)
     elif opcao == "4":
         print("Saindo do programa...")
         break
