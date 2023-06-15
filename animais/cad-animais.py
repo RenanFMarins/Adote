@@ -66,3 +66,13 @@ class Animais:
                 print("Opção inválida. Por favor, escolha uma opção válida.")
         else:
             print("Opção inválida. Por favor, escolha uma opção válida.")
+            
+    def listar_tipos_animais_ordenar(self):
+        print("Tipos de animais cadastrados:")
+        tipos = list(self.animais.keys())
+        for i, tipo in enumerate(tipos):
+            print(f"{i + 1}. {tipo}")
+        print("0. Adicionar um novo tipo de animal")
+
+        escolha = input("Digite o número do tipo desejado ou 0 para adicionar um novo tipo: ")
+        escolha = int(escolha)
