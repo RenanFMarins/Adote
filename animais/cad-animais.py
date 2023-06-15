@@ -1,6 +1,9 @@
 class Animais:
     def __init__(self):
         self.animais = {}
+   
+    def linha():
+    print('-='*30)
     
     def cadastrar_animal(self, tipo, nome, idade_aproximada, cor, porte, particularidade):
         animal = {
@@ -42,13 +45,13 @@ class Animais:
             animais_tipo_escolhido_ordenados = sorted(animais_tipo_escolhido, key=lambda animal: int(animal['idade_aproximada']))
 
             print(f"Animais do tipo '{tipo_escolhido}':")
-            print("--------------------------------------------------------------")
+            linha()
             for animal in animais_tipo_escolhido_ordenados:
                 print("Nome:", animal['nome'])
                 print("Idade Aproximada:", animal['idade_aproximada'])
                 print("Cor:", animal['cor'])
                 print("Porte:", animal['porte'])
                 print("Particularidade:", animal['particularidade'])
-            print("--------------------------------------------------------------")
+            linha()
         else:
             print("Opção inválida. Por favor, escolha uma opção válida.")
