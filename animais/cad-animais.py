@@ -1,9 +1,6 @@
 class Animais:
     def __init__(self):
         self.animais = {}
-   
-    def linha():
-    print('-='*30)
     
     def cadastrar_animal(self, tipo, nome, idade_aproximada, cor, porte, particularidade):
         animal = {
