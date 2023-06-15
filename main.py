@@ -40,13 +40,8 @@ while True:
         
         print("Tipos animais cadastrados:")
         cadastro.listar_tipos_animais()
-        
-    elif opcao == "4":
-        print("Você escolheu listar pessoas cadastradas")
-        
-        cadastropessoa.listar_pessoas()
 
-    elif opcao == "5":
+    elif opcao == "4":
         print("Saindo do programa...")
         break
         
