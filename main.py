@@ -30,11 +30,13 @@ while True:
         cadastro.listar_tipos_animais_ordenar()
         
     elif opcao == "3":
-        print("Você escolheu cadastrar pessoa")
-        nome = input("Digite o nome: ")
-        idade = input("Digite a idade: ")
-        
-        cadastropessoa.cadastrar_pessoa(nome, idade)
+        print("Você escolheu a opção Cadastrar Pessoa para Adoção")
+        nome = input("Digite o nome da pessoa: ")
+        contato = input("Digite o contato da pessoa: ")
+        tipo_preferido = input("Digite o tipo de animal preferido da pessoa: ")
+        preferencia= input("digite suas preferencias: ")
+
+        cadastropessoa.cadastrar_pessoa(nome, contato, tipo_preferido, preferencia)
         
     elif opcao == "4":
         print("Você escolheu listar pessoas cadastradas")
